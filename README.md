@@ -1,10 +1,10 @@
 # HTML5 - NOTES - Ghi lại những lưu ý khi làm việc với HTML5
-## Định nghĩa, khái niệm
+## Định nghĩa
 - Viết tắt là *Hyper Text Markup Language*
 - Mô tả cấu trúc của một trang web
 - Bao gồm một danh sách các phần tử (element), các phần tử cho trình duyệt biết cách hiển thị nội dung trang web
 - Các phần tử có tác dụng dán nhãn nội dung, ví dụ như "tiêu đề", "đoạn văn", "liên kết", ...
-- Một trang html đơn giản:
+### Một trang html đơn giản:
   ```
   <!DOCTYPE html> <!--khai báo này chỉ định rằng đây là tài liệu 'html5'-->
   <html>  <!--là phần tử (element) gốc của 1 trang html-->
@@ -19,5 +19,18 @@
   </body>
   </html>
   ```
+### Phần tử (element) là gì?
+- Một phần tử html được xác định bởi thẻ (**tag**) bắt đầu, một số nội dung và thẻ kết thúc:  
+  ```<tagname> Nội dung ... </tagname>```
+- Phần tử html là mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
+  ```
+  <h1>Tiêu đề đầu tiên của tôi</h1>
+  
+  <p>Đoạn đầu tiên của tôi.</p>
+  ```
+- Lưu ý: Một số phần tử html không có nội dung (như phần tử <**br**>). Những phần tử này được gọi là phần tử rỗng. Các phần tử rỗng không có thẻ kết thúc.
+### Trình duyệt web
+- Mục đích của trình duyệt web (Chrome, Edge, Firefox, Safari) là đọc tài liệu HTML và hiển thị chúng một cách chính xác.
+- Trình duyệt không hiển thị các thẻ HTML nhưng sử dụng chúng để xác định cách hiển thị tài liệu:
 ## TIPS
 - Tạo nhanh nội dung trang html trong Visual Studio Code bằng cách nhập **html:5**, sau đó bấm **Tab**
