@@ -8,3 +8,4 @@
 - Large or small screens, and resized windows will create different results.
 - With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
 - The browser will automatically remove any extra spaces and lines when the page is displayed (In HTML, spaces and new lines are ignored).
+- The HTML **pre** element defines preformatted text. The text inside a **pre** element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
